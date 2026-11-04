@@ -1,12 +1,12 @@
 
 #VARIABLE PARA NOMBRE 
-nombre = input("Ingrese su nombre: ")
+nombre = input("Ingrese su nombre: ").title()
 
 #VARIABLE PARA APELLIDO PATERNO 
-apellido_paterno = input("Ingrese su apellido paterno: ")
+apellido_paterno = input("Ingrese su apellido paterno: ").title()
 
 #VARIABLE PARA APELLIDO MATERNO 
-apellido_materno = input("Ingrese su apellido materno: ")
+apellido_materno = input("Ingrese su apellido materno: ").title()
 
 #VARIBALE PARA EDAD 
 edad = int(input("Ingrese su edad: "))
