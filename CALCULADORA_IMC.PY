@@ -1,6 +1,6 @@
 #SE DECLARA LA VARIABLE NOMBRE JUNTO CON UN BUCLE DE VALIDACION PARA QUE EL USUARIO INGRESE SU NOMBRE, SI NO LO HACE SE LE SOLICITARA NUEVAMENTE HASTA QUE INGRESE UN NOMBRE VALIDO
 while True:
-    nombre == input("Ingrese su nombre: ").srting().title()
+    nombre = input("Ingrese su nombre: ").srting().title()
     if nombre == "":
         print("ERROR: No puede dejar el campo vacio")
 
